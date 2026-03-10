@@ -13,12 +13,13 @@
 //         return res;
 //     }
 // }
-
+import java.util.Arrays;
 class Solution {
     public int[] productExceptSelf(int[] nums) {
         int n = nums.length;
         int ans[] = new int[n];
         // int suffix[] = new int[n];
+        Arrays.fill(ans,1);
         for(int i=1;i<n;i++){
             ans[i]=ans[i-1]*nums[i-1];
         }
