@@ -1,0 +1,17 @@
+# Compiled class file
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# VS Code settings
+.vscode/
+
+# IntelliJ files
+.idea/
+
+# Mac system file
+.DS_Store
